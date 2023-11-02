@@ -16,7 +16,7 @@ class Book2 extends StatelessWidget {
           // mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text(
-              'Stiv Jobsning asrab olgan otasi avtomexanik bo‘lgan, Stiv undan ko‘p narsani o‘rgangan. Ota o‘g‘liga stolining bir chetidan joy berib, uni juda qiziqtirgan elektronika bilan tanishtirishga erinmaydi. Jobs asrab olgan ota-onasini juda yaxshi ko‘rgan. Jobs daho bo‘lib tug‘ilmagan. U tashabbuskor va qiziquvchan oddiygina bola edi.Keyinchalik yigit noqonuniy moddalarga qiziqib qoladi, hippilarga ergashib, sevgan qizi bilan ',
+              'Stiv Jobsning asrab olgan otasi avtomexanik bo‘lgan, Stiv undan ko‘p narsani o‘rgangan. Ota o‘g‘liga stolining bir chetidan joy berib, uni juda qiziqtirgan elektronika bilan tanishtirishga erinmaydi. Jobs asrab olgan ota-onasini juda yaxshi ko‘rgan. Jobs daho bo‘lib tug‘ilmagan. U tashabbuskor va qiziquvchan oddiygina bola edi.',
               style: TextStyle(
                   fontSize: 24,
                   fontWeight: FontWeight.bold,

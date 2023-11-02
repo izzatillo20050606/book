@@ -9,7 +9,40 @@ class Book1 extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.blue,
+        surfaceTintColor: const Color.fromARGB(255, 228, 18, 18),
+        shadowColor: Colors.green,
         title: const Text('My Book 1'),
+      ),
+      drawer: Drawer(
+        child: ListView(
+          padding: const EdgeInsets.only(left: 50),
+          children: [
+            const DrawerHeader(
+              decoration: BoxDecoration(
+                color: Colors.blue,
+              ),
+              child: Text('Izzatillo'),
+            ),
+            ListTile(
+              leading: const Icon(
+                Icons.home,
+              ),
+              title: const Text("Home"),
+              onTap: () {
+                Navigator.pop(context);
+              },
+            ),
+            ListTile(
+              leading: const Icon(
+                Icons.account_box_outlined,
+              ),
+              title: const Text("About"),
+              onTap: () {
+                Navigator.pop(context);
+              },
+            ),
+          ],
+        ),
       ),
       body: const Center(
         child: Column(
@@ -22,7 +55,6 @@ class Book1 extends StatelessWidget {
                   // fontWeight: FontWeight.bold,
                   fontStyle: FontStyle.italic),
             ),
-           
           ],
         ),
       ),
@@ -31,7 +63,7 @@ class Book1 extends StatelessWidget {
           Navigator.push(
               context, MaterialPageRoute(builder: (context) => const Book2()));
         },
-                backgroundColor: Colors.green,
+        backgroundColor: Colors.green,
         child: const Icon(Icons.arrow_forward),
       ),
     );
