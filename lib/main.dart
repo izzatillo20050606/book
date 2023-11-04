@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:lesson_uzum/book_one/book_one.dart';
+import 'package:lesson_uzum/galery/galery.dart';
 
 void main(List<String> args) {
   runApp(const MyApp());
@@ -15,8 +15,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         useMaterial3: true,
       ),
-      title: "My Book",
-      home: const Book1(),
+      title: "Galery",
+      home: const Galery(),
     );
   }
 }
