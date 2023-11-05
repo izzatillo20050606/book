@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:lesson_uzum/galery/galery.dart';
 
 class Galery5 extends StatelessWidget {
   const Galery5({super.key});
@@ -34,7 +35,7 @@ class Galery5 extends StatelessWidget {
           Navigator.push(
             context,
             MaterialPageRoute(
-              builder: (context) => const Galery5(),
+              builder: (context) => const Galery(),
             ),
           );
         },
